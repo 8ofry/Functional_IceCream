@@ -1,0 +1,14 @@
+# Build artefacts
+node_modules/
+rendered-slides/
+
+# Generated PowerPoint files (regenerate via `node build-pptx.js`)
+*.pptx
+~$*.pptx
+
+# Editor / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
